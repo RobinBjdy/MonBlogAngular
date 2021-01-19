@@ -6,8 +6,8 @@ footer {
     bottom: 0px; /* Bas */
     height: 40px; /* Hauteur */
     width: 100%; /* Le pied de page occupe toute la largeur */ 
-    background-color:#2d2d2d; /* Couleur de fond */
-    color: #bbb; /* Couleur du texte */
+    background-color:#e7e7e7; /* Couleur de fond */
+    color: #555555; /* Couleur du texte */
     text-align:center; /* Texte centré */
 }
 
