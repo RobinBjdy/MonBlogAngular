@@ -11,7 +11,7 @@ export class PostsService {
   posts: Post[] = [
     {
       title: 'Bienvenue',
-      content: 'Ceci est mon blog, vous pouvez créer de nouveaux posts, en supprimer ou bien tous les supprimer',
+      content: 'Ceci est mon blog, vous pouvez créer de nouveaux posts, en supprimer ou bien tous les supprimer !\nVous pouvez aussi liker ou dont liker chaque post, n\'hésitez pas !',
       loveIts: 1,
       created_at: this.date,
     }
