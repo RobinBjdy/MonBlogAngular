@@ -7,12 +7,13 @@ import { Subject } from 'rxjs';
 })
 export class PostsService {
 
+  date = Date.now();
   posts: Post[] = [
     {
       title: 'Bienvenue',
       content: 'Ceci est mon blog, vous pouvez créer de nouveaux posts, en supprimer ou bien tous les supprimer',
       loveIts: 1,
-      created_at: 1610950000000,
+      created_at: this.date,
     }
   ];
   postSubject = new Subject<Post[]>();
@@ -35,8 +36,8 @@ export class PostsService {
   // Suppression d'un post
   removePost(post: Post) {
     const postIndexToRemove = this.posts.findIndex(
-      (postEl) => {
-        if (postEl === post) {
+      (postl) => {
+        if (postl === post) {
           return true;
         }
       }
